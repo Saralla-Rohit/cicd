@@ -9,6 +9,7 @@ public class CicdDemo1Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CicdDemo1Application.class, args);
+		IO.println("hello this is the added line");
 	}
 
 }
