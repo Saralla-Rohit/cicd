@@ -11,7 +11,7 @@ class CicdDemo1ApplicationTests {
 	public static Logger logger=org.slf4j.LoggerFactory.getLogger(CicdDemo1ApplicationTests.class);
 
 	@Test
-	public contextLoads() {
+	void contextLoads() {
 		logger.info("test case executing");
 		logger.info("test case executing 2nd log stmt");
 		assertEquals(true, true);
