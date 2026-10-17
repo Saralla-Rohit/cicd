@@ -9,7 +9,7 @@ import jakarta.annotation.PostConstruct;
 @SpringBootApplication
 public class CicdDemo1Application {
 	
-	public static Logger logger=org.slf4j.LoggerFactory.getLogger(CicdDemo1Application.class);
+//	public static Logger logger=org.slf4j.LoggerFactory.getLogger(CicdDemo1Application.class);
 	@PostConstruct
 	public void intt() {
 		logger.info("Application started");
