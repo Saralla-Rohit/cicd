@@ -13,7 +13,6 @@ class CicdDemo1ApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("test case executing");
-		logger.info("test case executing 2nd log stmt");
 		assertEquals(true, true);
 	}
 
